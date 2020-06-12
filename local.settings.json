@@ -1,0 +1,20 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+
+    // MORESCA Env
+    "X-AppSecretToken": "7jQtNtQa2D62v8lp7LM0MMTEiF60LhtjW93X7NRqISA1", 
+    "X-AgreementGrantToken": "LGdounz0xRxnfTzwsCkpQXcSHcMdziQuPS5fTDS03ic1",
+
+    // ITEMA for TEST
+    //"X-AppSecretToken": "7jQtNtQa2D62v8lp7LM0MMTEiF60LhtjW93X7NRqISA1",
+    //"X-AgreementGrantToken": "KFmhwVZ7QkAHlvJelGwsTK8kiM6FKDksePU8qPF6IGc1",
+    "sqldb_connection": "Server=tcp:moresca.database.windows.net,1433;Initial Catalog=Moresca;Persist Security Info=False;User ID=morescaadmin;Password=Moresca@2020;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  }
+}
+
+//'X-AppSecretToken': 'FLYpKsvHtX76DSgLkXW9g4NiwrYJfQn3tnliEEFTRYc1',
+//        'X-AgreementGrantToken': "KFmhwVZ7QkAHlvJelGwsTK8kiM6FKDksePU8qPF6IGc1"
+//    },
